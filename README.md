@@ -34,10 +34,14 @@ function addPerson(string memory _name, uint256 _favoriteNumber) public {
     listOfPeople.push(Person(_favoriteNumber, _name));
     nameToFavoriteNumber[_name] = _favoriteNumber;
 }
-🔐 Tech Used
+---
+
+
+# 🔐 Tech Used
 Solidity ^0.8.18
 
 Cyfrin Updraft learning resources
+***
 
 📚 Learning Goals
 This contract helped me learn:
